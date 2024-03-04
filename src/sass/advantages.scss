@@ -1,0 +1,309 @@
+.advantages {
+  background-color: #000;
+  .header {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    background-image: url("../images/advantages-background 3.png");
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media only screen and (max-width: 500px){
+      padding: 0 36px;
+    }
+    h1 {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 69.754px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -3.488px;
+      margin-top: 70px;
+      @media only screen and (max-width: 500px){
+        font-size: 22px;
+        margin-top: 50px;
+        letter-spacing: -2px;
+      }
+      img {
+        @media only screen and (max-width: 500px){
+          width: 37px;
+          height: 20px;
+        }
+      }
+    }
+    .subtitle {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 21.564px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -1.078px;
+      margin-top: 30px;
+      @media only screen and (max-width: 500px){
+        font-size: 7px;
+        letter-spacing: -0.7px;
+        margin-top: 10px;
+      }
+    }
+    .row {
+      margin: 50px 0;
+      padding-bottom: 30px;
+      @media only screen and (max-width: 500px){
+        margin-top: 30px;
+      }
+      .col-lg-12 {
+        margin-bottom: 16px;
+        @media only screen and (max-width: 500px){
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          @media only screen and (max-width: 500px){
+            width: 100%;
+            height: 273px;
+          }
+        }
+      }
+      .col-lg-6 {
+        @media only screen and (max-width: 500px){
+          margin-top: 15px;
+        }
+        img {
+          width: 100%;
+          @media only screen and (max-width: 500px){
+            width: 100%;
+            height: 143px;
+          }
+        }
+      }
+    }
+  }
+  main {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    @media only screen and (max-width: 500px){
+      padding: 0 36px;
+    }
+    .subtitle {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 21.564px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -1.078px;
+      padding-top: 40px;
+      @media only screen and (max-width: 500px){
+        font-size: 7px;
+        letter-spacing: -0.7px;
+        padding-top: 10px;
+      }
+    }
+    .companies-info {
+      width: 100%;
+      height: 397.62px;
+      background-image: url("../images/background oil grid.png");
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 50px;
+      @media only screen and (max-width: 500px){
+        width: 100%;
+        height: 125px;
+      }
+      .title {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 146.165px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -7.308px;
+        padding: 0 30px;
+        @media only screen and (max-width: 500px){
+          font-size: 40px;
+          letter-spacing: -4px;
+          padding: 10px 20px 0;
+          text-align: left;
+          margin: 0;
+        }
+      }
+      .companies-subtitle {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40.764px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -2.038px;
+        padding: 0 39px;
+        @media only screen and (max-width: 500px){
+          font-size: 16px;
+          letter-spacing: -1px;
+          text-align: left;
+          padding: 0 20px;
+          margin: 0;
+        }
+      }
+      h3 {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 95px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -5.111px;
+        padding: 0 35px;
+        @media only screen and (max-width: 500px){
+          font-size: 22px;
+          letter-spacing: -2px;
+          padding: 0 20px;
+        }
+      }
+    }
+    .row {
+      margin: 60px 0;
+      .title-show {
+        display: none ;
+        @media only screen and (max-width: 500px){
+          display: block ;
+        }
+      }
+      .title-hide {
+        display: block;
+        @media only screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+      .col-lg-6 {
+        h4 {
+          color: #FFF;
+          font-family: Montserrat;
+          font-size: 57.863px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: -2.743px;
+          margin-top: 30px;
+          @media only screen and (max-width: 500px){
+            font-size: 18px;
+            letter-spacing: -2px;
+            margin-top: 10px;
+          }
+          img {
+            @media only screen and (max-width: 500px){
+              width: 34px;
+              height: 18px;
+            }
+          }
+        }
+
+        .subtitle {
+          padding-top: 13px;
+          color: #FFF;
+          font-family: Montserrat;
+          font-size: 21.564px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: -1.078px;
+          @media only screen and (max-width: 500px){
+            font-size: 7px;
+            letter-spacing: -0.7px;
+          }
+        }
+        .half-img {
+          border-radius: 38.792px;
+          width: 100%;
+          @media only screen and (max-width: 500px){
+
+          }
+        }
+      }
+    }
+  }
+  section {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    background-image: url("../images/section-background.png");
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media only screen and (max-width: 500px){
+      padding: 0 36px;
+      background-position: center;
+      background-size: inherit;
+    }
+    h3 {
+      padding-top: 50px;
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 86.397px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -4.32px;
+      @media only screen and (max-width: 500px){
+        font-size: 26px;
+        letter-spacing: -1px;
+        padding-top: 30px;
+      }
+      img {
+        @media only screen and (max-width: 500px){
+          width: 51px;
+          height: 26px;
+        }
+      }
+    }
+    .subtitle {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 21.564px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -1.078px;
+      margin: 33px 0 50px;
+      @media only screen and (max-width: 500px){
+        font-size: 7px;
+        letter-spacing: -0.7px;
+        margin: 20px 0 30px;
+      }
+    }
+    .advantages-truck {
+      width: 100%;
+      height: auto;
+      border-radius: 43.641px;
+      @media only screen and (max-width: 500px){
+        width: 100%;
+        height: auto;
+        border-radius: 26px;
+      }
+    }
+    .rectangle {
+      width: 350px;
+      height: 68px;
+      vertical-align: inherit;
+      @media only screen and (max-width: 500px){
+        width: 74px;
+        height: 14px;
+      }
+    }
+    .workers {
+      @media only screen and (max-width: 500px){
+        font-size: 18px;
+      }
+    }
+  }
+  .application-part {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+  }
+}

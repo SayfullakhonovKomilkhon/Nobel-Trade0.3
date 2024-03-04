@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.footer {
+  background-image: url("../../images/footer-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100% ;
+
+  @media only screen and (max-width: 500px) {
+    height: 570px;
+    width: 100%;
+    background-size: inherit;
+    background-position: center;
+  }
+  .footer-components {
+    padding: 50px 98px 0;
+    @media only screen and (max-width: 500px) {
+      padding: 30px 36px 0;
+      height: 100%;
+    }
+    .footer-form {
+      border-radius: 40.193px;
+      background: rgba(0, 0, 0, 0.50);
+      backdrop-filter: blur(13.548100471496582px);
+      width: 100%;
+      height: 250.708px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      @media only screen and (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 152px;
+        border-radius: 12px;
+      }
+      p {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -3.067px;
+        @media only screen and (max-width: 500px) {
+          font-size: 18px;
+          letter-spacing: -0.7px;
+          text-align: center;
+          padding-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: left;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 30.736px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 36.801px;
+        border: 1.472px solid #FFF;
+        background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+        box-shadow: -3.68px -3.68px 184.005px 0px rgba(255, 255, 255, 0.02) inset;
+        backdrop-filter: blur(15.456403732299805px);
+        width: 426.655px;
+        height: 134.517px;
+        @media only screen and (max-width: 500px) {
+          width: 225px;
+          height: 72px;
+          font-size: 18px;
+          letter-spacing: -0.7px;
+          border-radius: 20px;
+          margin-bottom: 7px;
+        }
+        img {
+          width: 102px;
+          height: 94.966px;
+          background-image: url("../../images/footer-arrow-backgound.png") !important;
+          background-repeat: no-repeat;
+          background-size: inherit;
+          background-position: center;
+          padding: 16px;
+          @media only screen and (max-width: 500px) {
+            width: 54px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 7px;
+          }
+        }
+      }
+    }
+    .footer-navigate {
+      margin-top: 31px;
+      @media only screen and (max-width: 500px) {
+        margin-top: 30px;
+      }
+      .row {
+        @media only screen and (max-width: 500px) {
+          display: flex ;
+          justify-content: space-between;
+        }
+        .col-lg-4{
+          @media only screen and (max-width: 500px) {
+            width: 160px;
+          }
+          img {
+            @media only screen and (max-width: 500px) {
+              width: 60px;
+              height: 26px;
+            }
+          }
+          .navbar {
+            display: block;
+            background-color: transparent;
+            .nav-item {}
+            .nav-link {
+              color: #FFF;
+              font-family: Montserrat;
+              font-size: 23.801px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              margin-top: 15px;
+              @media only screen and (max-width: 500px) {
+                font-size: 10px;
+              }
+            }
+          }
+
+        }
+        .col-lg-2 {
+          display: flex;
+          align-items: center;
+          @media only screen and (max-width: 500px) {
+            width: 141px;
+            margin-top: 50px;
+            text-align: right;
+          }
+          .navbar {
+            display: block;
+            .nav-item {}
+            .nav-link {
+              color: #FFF;
+              font-family: Montserrat;
+              font-size: 23.801px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              margin-top: 15px;
+              @media only screen and (max-width: 500px) {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        .col-lg-6 {
+          .footer-socials {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-top: 18px;
+            @media only screen and (max-width: 500px) {
+              display: flex;
+              align-items: flex-end;
+              margin-top: 35px;
+            }
+            img {
+              width: 93.602px;
+              height: 88.232px;
+              border: 1.472px solid #FFF;
+              background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+              box-shadow: -3.68px -3.68px 184.005px 0px rgba(255, 255, 255, 0.02) inset;
+              backdrop-filter: blur(15.456403732299805px);
+              padding: 17px;
+              border-radius: 24px;
+              @media only screen and (max-width: 500px) {
+                width: 27px;
+                height: 25px;
+                padding: 3px;
+                border-radius: 7px;
+              }
+            }
+            img:not(first-child){
+              margin-left: 22px;
+            }
+          }
+          .footer-contacts {
+            color: #FFF;
+            text-align: right;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin-top: 100px;
+            @media only screen and (max-width: 500px) {
+              margin-top: 20px;
+              font-size: 13px;
+            }
+            .phone-number,.address {
+              border-radius: 31.098px;
+              border: 1.244px solid #FFF;
+              background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+              box-shadow: -3.11px -3.11px 155.488px 0px rgba(255, 255, 255, 0.02) inset;
+              backdrop-filter: blur(13.06098461151123px);
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+              @media only screen and (max-width: 500px) {
+
+              }
+              img {
+                width: 30.446px;
+                height: 30.446px;
+                @media only screen and (max-width: 500px) {
+                  width: 11px;
+                  height: 11px;
+                }
+              }
+            }
+            .phone-number {
+              width: 323.533px;
+              height: 50.376px;
+              @media only screen and (max-width: 500px) {
+                width: 137px;
+                height: 22px;
+              }
+            }
+            .address {
+              width: 572.446px;
+              height: 50.376px;
+              @media only screen and (max-width: 500px) {
+                width: 242px;
+                height: 22px;
+              }
+              img {
+
+              }
+            }
+          }
+        }
+        .col-lg-12 {
+          h6 {
+            text-align: center;
+            margin-top: 50px;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            @media only screen and (max-width: 500px) {
+              font-size: 10px;
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.modal {
+  background-color: transparent;
+  .modal-info {
+    margin-top: 10% !important;
+    @media only screen and (max-width: 500px) {
+      margin-top: 50% !important;
+    }
+  }
+  .modal-dialog {
+
+    .modal-height {
+      width: 100%;
+      height: 570px;
+      @media only screen and (max-width: 500px) {
+        width: 414px;
+        height: 696px;
+      }
+      .modal-body {
+        @media only screen and (max-width: 500px) {
+          padding: 35px !important;
+        }
+        .form-modal-title {
+          @media only screen and (max-width: 500px) {
+            margin-top: 60px;
+            font-size: 22px;
+          }
+        }
+        .form-control {
+          @media only screen and (max-width: 500px) {
+            width: 325px !important;
+          }
+        }
+        .modal-form-textarea {
+          width: 427px !important;
+          @media only screen and (max-width: 500px) {
+            width: 340px !important;
+            height: 130px;
+          }
+        }
+      }
+    }
+    .modal-content {
+
+    }
+  }
+}
+
+.accordion-position {
+  top: 17% !important;
+  @media only screen and (max-width: 500px) {
+    top: 21% !important;
+    width: 340px !important;
+  }
+}

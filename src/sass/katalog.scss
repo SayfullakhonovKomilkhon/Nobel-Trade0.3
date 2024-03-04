@@ -1,0 +1,600 @@
+.catalog {
+  position: relative;
+  .video {
+    width: 100% !important;
+    height: 100vh !important;
+    padding: 0;
+    margin: 0;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media only screen and (max-width: 500px) {
+      width: 100%;
+      height: 100vh;
+      scale: 8.3;
+    }
+    .video-bg {
+      width: 100%;
+      @media only screen and (max-width: 500px) {
+        height: 600px !important;
+      }
+    }
+  }
+  .header {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    height: 100vh;
+    @media only screen and (max-width: 500px) {
+      padding: 0 36px;
+      height: 100vh;
+    }
+    .header-title {
+      margin-top: 60px;
+      text-align: center;
+      h1 {
+        color: #FFF;
+        font-family: "Suissie Intl";
+        font-size: 143.925px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -7.196px;
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 500px) {
+          font-size: 74px;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+        }
+        span {
+          display: flex;
+          .capsule {
+            display: none;
+            @media only screen and (max-width: 500px) {
+              display: block;
+              width: 111px;
+              height: 61px;
+            }
+          }
+        }
+      }
+      .subtitle {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 22.325px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media only screen and (max-width: 500px) {
+          font-size: 13px;
+        }
+        img {
+          width: 140px;
+          height: 80px;
+          margin-right: 20px;
+          @media only screen and (max-width: 500px) {
+            display: none;
+          }
+        }
+      }
+    }
+    .row {
+      margin: 0;
+      padding: 0;
+      .col-lg-6 {
+        margin: 0;
+        padding: 0;
+        .catalog-card {
+          width: 98%;
+          height: 147.991px;
+          border-radius: 41.667px;
+          border: 1.667px solid #FFF;
+          background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+          box-shadow: -4.167px -4.167px 208.333px 0px rgba(255, 255, 255, 0.02) inset;
+          backdrop-filter: blur(17.5px);
+          @media only screen and (max-width: 500px) {
+            height: 75px;
+            border-radius: 21.3px;
+            padding: 8px;
+          }
+          .subtitle {
+            font-family: Montserrat;
+            font-size: 15.707px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.785px;
+            @media only screen and (max-width: 500px) {
+              font-size: 8px;
+            }
+          }
+          img {
+            width: 213px;
+            height: 119.068px;
+            @media only screen and (max-width: 500px) {
+              width: 109px;
+              height: 61px;
+
+            }
+          }
+        }
+        .change-catalog-card {
+          display: flex;
+          flex-direction: row-reverse;
+          margin-top: 25px;
+          img {
+            
+          }
+          p {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .catalog-info-section {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    background-image: url("../images/catalog-info-section-background.png");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    @media only screen and (max-width: 500px) {
+      padding: 0 36px;
+    }
+    .catalog-info-section-top , .catalog-info-section-bottom {
+      .title {
+        font-family: Montserrat;
+        font-size: 69.754px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.395px;
+        @media only screen and (max-width: 500px) {
+          font-size: 20px;
+        }
+        img {
+          @media only screen and (max-width: 500px) {
+            width: 33px;
+            height: 18px;
+            margin-left: 3px;
+          }
+        }
+      }
+      .subtitle {
+        font-family: Montserrat;
+        font-size: 21.564px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.078px;
+        @media only screen and (max-width: 500px) {
+          font-size: 7px;
+          letter-spacing: -0.05em;
+        }
+      }
+      .row {
+        margin: 0;
+        padding: 0;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .mobile-edition {
+          display: none;
+          @media only screen and (max-width: 500px) {
+            display: block;
+          }
+        }
+        .mobile-hide {
+          display: block;
+          @media only screen and (max-width: 500px) {
+            display: none !important;
+          }
+        }
+        .col-lg-7 {
+          @media only screen and (max-width: 500px) {
+            padding: 0;
+            margin-bottom: 11px;
+          }
+          img {
+            height: 100%;
+            @media only screen and (max-width: 500px) {
+              height: 211px;
+            }
+          }
+        }
+        .col-lg-5 {
+          padding: 0;
+          img {
+            @media only screen and (max-width: 500px) {
+              height: 185px;
+            }
+          }
+          .row {
+            @media only screen and (max-width: 500px) {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+            }
+            .col-lg-6{
+              height: 166px;
+              padding: 0;
+              margin: 0;
+              @media only screen and (max-width: 500px) {
+                width: 50%;
+                height: 100px;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+                @media only screen and (max-width: 500px) {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .main-catalog {
+      .title {
+        font-family: Montserrat;
+        font-size: 69.754px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -2.093px;
+        @media only screen and (max-width: 500px) {
+          font-size: 20px;
+          letter-spacing: -0.03px;
+        }
+        img {
+          @media only screen and (max-width: 500px) {
+            width: 36px;
+            height: 19px;
+          }
+        }
+      }
+      .row {
+        margin: 0;
+        padding: 0;
+        .col-lg-3 {
+          margin: 0;
+          padding: 0;
+          @media only screen and (max-width: 500px) {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+          }
+          .catalog-card {
+            width: 300px;
+            height: 510px;
+            border-radius: 27.376px;
+            background: rgba(0, 0, 0, 0.50);
+            backdrop-filter: blur(12.36313533782959px);
+            @media only screen and (max-width: 500px) {
+              width: 80%;
+              height: 270px;
+              padding: 7px !important;
+            }
+            .card-img {
+              position: relative;
+              width: 270px;
+              height: 383px;
+              border-radius: 20px;
+              cursor: pointer;
+              @media only screen and (max-width: 500px) {
+                width: 100%;
+                height: 197px;
+              }
+              .main-img {
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+              }
+              .card-korzino {
+                position: relative;
+                width: 50px;
+                height: 50px;
+                padding: 13px;
+                margin: 11px 0 0 7px;
+                background-image: url("../images/korzino-background.png");
+                background-size: inherit;
+                background-repeat: no-repeat;
+                background-position: center;
+                z-index: 3;
+                @media only screen and (max-width: 500px) {
+                  width: 25px;
+                  height: 25px;
+                  padding: 8px;
+                  margin: 5px 0 0 3px;
+                  border-radius: 50%;
+                }
+              }
+            }
+            h3{
+              @media only screen and (max-width: 500px) {
+                font-size: 12px;
+                margin-top: 15px;
+                margin-bottom: 0;
+              }
+            }
+            .card-button {
+              border-radius: 24.436px;
+              border: 0.977px solid #FFF;
+              background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+              box-shadow: -2.444px -2.444px 122.178px 0px rgba(255, 255, 255, 0.02) inset;
+              backdrop-filter: blur(10.262953758239746px);
+              width: 106.519px;
+              height: 16.462px;
+              position: relative;
+              margin: 18px auto;
+              @media only screen and (max-width: 500px) {
+                margin: 10px auto;
+              }
+              button {
+                font-family: Montserrat;
+                font-size: 9.99px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 0;
+                text-align: center;
+                position: absolute;
+                left: 10px;
+                box-shadow: none;
+                border: none !important;
+              }
+              button:focus,
+              button:focus-visible{
+                background-color: transparent;
+                border: none;
+              }
+              img{
+                background-image: url("../images/footer-arrow-backgound.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 15px;
+                height: auto;
+                margin-left: auto;
+                border-radius: 19.256px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  main {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    background-image: url("../images/main-backgorund.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #000000 ;
+    background-size: cover;
+    @media only screen and (max-width: 500px) {
+      padding: 0 36px;
+    }
+    .catalog-info-section-top {
+      .title {
+        font-family: Montserrat;
+        font-size: 69.754px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.395px;
+        @media only screen and (max-width: 500px) {
+          font-size: 20px;
+        }
+        img {
+          @media only screen and (max-width: 500px) {
+            width: 38px;
+            height: 20px;
+          }
+        }
+      }
+      .subtitle {
+        font-family: Montserrat;
+        font-size: 21.564px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.078px;
+        @media only screen and (max-width: 500px) {
+          font-size: 7px;
+          letter-spacing: -0.03em;
+        }
+      }
+      .row {
+        margin: 0;
+        padding: 0;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .mobile-hide{
+          display: block;
+          @media only screen and (max-width: 500px) {
+            display: none;
+          }
+        }
+        .mobile-show {
+          display: none;
+          @media only screen and (max-width: 500px) {
+            display: block;
+            margin-top: 10px;
+          }
+        }
+        .col-lg-7 {
+          @media only screen and (max-width: 500px) {
+            padding: 0;
+          }
+          img {
+            height: 100%;
+            @media only screen and (max-width: 500px) {
+              height: 212px;
+            }
+          }
+        }
+        .col-lg-5 {
+          padding: 0;
+          .row {
+            .col-lg-6{
+              height: 166px;
+              padding: 0;
+              @media only screen and (max-width: 500px) {
+                width: 50%;
+                height: 110px;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+                @media only screen and (max-width: 500px) {
+                  height: 100%;
+                }
+              }
+            }
+            .col-lg-12 {
+              @media only screen and (max-width: 500px) {
+                width: 50%;
+                margin-top: 10px;
+                padding-top: 0 !important;
+                display: flex;
+                justify-content: space-between;
+              }
+              img {
+                @media only screen and (max-width: 500px) {
+                  height: auto;
+                  width: 97%;
+                }
+              }
+              .mobile-border {
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .row {
+      margin: 0;
+      padding: 0;
+      .col-lg-3 {
+        margin: 0;
+        padding: 0;
+        @media only screen and (max-width: 500px) {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+        }
+        .catalog-card {
+          width: 300px;
+          height: 510px;
+          border-radius: 27.376px;
+          background: rgba(0, 0, 0, 0.50);
+          backdrop-filter: blur(12.36313533782959px);
+          @media only screen and (max-width: 500px) {
+            width: 80%;
+            height: 270px;
+            padding: 7px !important;
+          }
+          .card-img {
+            width: 270px;
+            height: 383px;
+            background-image: url("../images/catalog-card-1.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            cursor: pointer;
+            @media only screen and (max-width: 500px) {
+              width: 100%;
+              height: 197px;
+            }
+            .card-korzino {
+              width: 50px;
+              height: 50px;
+              padding: 13px;
+              margin: 11px 0 0 7px;
+              background-image: url("../images/korzino-background.png");
+              background-size: inherit;
+              background-repeat: no-repeat;
+              background-position: center;
+              @media only screen and (max-width: 500px) {
+                width: 25px;
+                height: 25px;
+                padding: 8px;
+                margin: 5px 0 0 3px;
+                border-radius: 50%;
+              }
+            }
+          }
+          h3{
+            @media only screen and (max-width: 500px) {
+              font-size: 12px;
+              margin-top: 15px;
+              margin-bottom: 0;
+            }
+          }
+          .card-button {
+            border-radius: 24.436px;
+            border: 0.977px solid #FFF;
+            background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+            box-shadow: -2.444px -2.444px 122.178px 0px rgba(255, 255, 255, 0.02) inset;
+            backdrop-filter: blur(10.262953758239746px);
+            width: 106.519px;
+            height: 16.462px;
+            position: relative;
+            margin: 18px auto;
+            @media only screen and (max-width: 500px) {
+              margin: 10px auto;
+            }
+            button {
+              font-family: Montserrat;
+              font-size: 9.99px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              padding: 0;
+              text-align: center;
+              position: absolute;
+              left: 10px;
+              box-shadow: none;
+              border: none !important;
+            }
+            button:focus,
+            button:focus-visible{
+              background-color: transparent;
+              border: none;
+            }
+            img{
+              background-image: url("../images/footer-arrow-backgound.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              width: 15px;
+              height: auto;
+              margin-left: auto;
+              border-radius: 19.256px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .catalog-application {
+    margin: 0;
+    padding: 0 98px;
+    box-sizing: border-box;
+    background-color: #000;
+  }
+}

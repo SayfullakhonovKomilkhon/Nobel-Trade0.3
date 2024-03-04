@@ -1,0 +1,94 @@
+.application {
+  .be-partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    .subtitle {
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -2.42px;
+      @media only screen and (max-width: 500px) {
+        font-size: 13.46px;
+        letter-spacing: -0.7px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+  .main-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 175px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -9.615px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+    @media only screen and (max-width: 500px) {
+      font-size: 49.18px;
+      letter-spacing: -0.7px;
+      padding-bottom: 30px;
+    }
+  }
+  .open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 630px;
+    height: 122px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 43.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    background-image: url("../../images/partnership button.svg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 60.5px;
+    @media only screen and (max-width: 500px) {
+      font-size: 16.11px;
+      letter-spacing: -0.7px;
+      width: 229px;
+      height: 45px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+    }
+    img {
+      width: 97.783px;
+      height: 91.406px;
+      background-color: #000;
+      border-radius: 50%;
+      padding: 10px;
+      @media only screen and (max-width: 500px) {
+        width: 36px;
+        height: 34px;
+        padding: 5px;
+      }
+    }
+  }
+
+  .button-lg {
+    @media only screen and (max-width: 500px) {
+      display: none;
+    }
+  }
+  .button-md {
+    display: none;
+    @media only screen and (max-width: 500px) {
+      display: block;
+    }
+  }
+}
+

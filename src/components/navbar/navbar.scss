@@ -1,0 +1,121 @@
+.navbar {
+  height: 180px;
+  background-color: transparent;
+  box-shadow: none;
+  @media only screen and (max-width: 500px) {
+    height: 80px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  .headerImg {
+    width: 100%;
+    height: auto;
+  }
+  .nav-collapse {
+    @media only screen and (max-width: 500px) {
+      display: none !important;
+    }
+  }
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+    .navbar-nav {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      .nav-link {
+        color: #fff !important;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .nav-link:hover {
+        border: none !important;
+        background-color: transparent;
+      }
+
+    }
+    .changeLanguage {
+      position: absolute;
+      top: 25px;
+      right: 16px;
+      width: 115px;
+      height: 38px;
+      stroke-width: 0.806px;
+      stroke: #FFF;
+      box-shadow: -2.015px -2.015px 100.747px 0px rgba(255, 255, 255, 0.02) inset;
+      backdrop-filter: blur(70.462712287902832px);
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-around;
+      .rus {
+        width: 35.12px;
+        height: 35.12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #AEAEAE !important;
+      }
+
+      .uzb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #AEAEAE !important;
+        margin-right: 3.55px;
+      }
+
+      .eng {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #AEAEAE !important;
+        margin-right: 3.55px;
+        top: 25%;
+        left: 70%;
+      }
+      .rus,.uzb,.eng {
+        font-family: Montserrat;
+        font-size: 13.8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.69px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        margin: 1.6px 0;
+        width: 35.12px;
+        height: 35.12px;
+      }
+      .active {
+        color: #545454 !important;
+      }
+      .language-button {
+        background-color:rgba(255, 255, 255, 0.50);
+        width: 35.12px;
+        height: 35.12px;
+        border-radius: 50%;
+        position: absolute;
+        transition: left 0.6s ease-in-out;
+        top: 1.6px;
+        left: 0px;
+        margin-left: 1.6px;
+      }
+    }
+  }
+}
+
+.menu-navbar {
+  display: none;
+}
